@@ -80,7 +80,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <img width={180}  src="/Images/EMBRACE.svg" alt="logo"/>
+              <img width={180}  src="./Images/EMBRACE.svg" alt="logo"/>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-gray-700 hover:text-blue-900 transition-colors">Features</a>
@@ -97,7 +97,7 @@ function App() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(/Images/EMBRACE_THE_WIND_01.jpg)`
+            backgroundImage: `url(./Images/EMBRACE_THE_WIND_01.jpg)`
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-blue-800/60"></div>
@@ -258,7 +258,7 @@ function App() {
             
             <div className="relative">
               <img 
-                src={"/Images/EMBRACE_THE_WIND_20.jpg"} 
+                src={"./Images/EMBRACE_THE_WIND_20.jpg"} 
                 alt="Luxury Interior" 
                 className="rounded-2xl shadow-2xl"
               />
@@ -319,7 +319,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <img 
-                src="/Images/EMBRACE_THE_WIND_19.jpg" 
+                src="./Images/EMBRACE_THE_WIND_19.jpg" 
                 alt="S.G. Highway Location" 
                 className="rounded-2xl shadow-2xl"
               />
@@ -372,12 +372,12 @@ function App() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              "/Images/EMBRACE_THE_WIND_28.jpg",
-              "/Images/EMBRACE_THE_WIND_27.jpg",
-              "/Images/EMBRACE_THE_WIND_23.jpg",
-              "/Images/EMBRACE_THE_WIND_24.jpg",
-              "/Images/EMBRACE_THE_WIND_25.jpg",
-              "/Images/EMBRACE_THE_WIND_26.jpg",
+              "./Images/EMBRACE_THE_WIND_28.jpg",
+              "./Images/EMBRACE_THE_WIND_27.jpg",
+              "./Images/EMBRACE_THE_WIND_23.jpg",
+              "./Images/EMBRACE_THE_WIND_24.jpg",
+              "./Images/EMBRACE_THE_WIND_25.jpg",
+              "./Images/EMBRACE_THE_WIND_26.jpg",
             ].map((image, index) => (
               <div key={index} className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
                 <img 
